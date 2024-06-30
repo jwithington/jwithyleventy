@@ -1,0 +1,14 @@
+---
+layout: layout.html
+---
+
+<!-- prettier-ignore -->
+<div class="container">
+     <p>This is my ongoing adventure with web development and re-making my blog, using eleventy</p>
+     <img src="https://loremflickr.com/1280/720" />
+</div>
+<h2>Posts</h2>
+{% for post in collections.post %}
+<h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+<p>{{ post.content}}</p>
+{% endfor %} Some other content
