@@ -32,7 +32,10 @@
 <p>After some Googling, I ended up finding a couple of sources for my main tools: VS Code, on a Mac. I also found someone's basic boilerplate version and deleted ths stuff I figured I wouldn't use. I kept the sources in the file, both for me, and so I can credit them. You can see <a href="https://github.com/jwithington/jwithyleventy/blob/main/.gitignore">the file in the now-published GitHub repo</a>. Hooray for tools built by folks!</p>
 <p>A non-zero amount of what's in that file represents things I haven't built yet, like environmental variables and such. To me, that makes it a good safeguard -- it's already there when I do need it, and it prevents my &quot;go go go&quot; hyperfocus brain from missing the important stuff later.</p>
 <h2>Time to deploy</h2>
-<p>After I'm sure I have that all ready to go, it's time to deploy. I used the <a href="https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#importing-a-git-repository-with-the-command-line">GitHub CLI to push the local folder</a> to a GitHub repo. From there, Netlify + GitHub is well-trodden, so I just followed their <a href="https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git">Deploy to Git</a> docs, and it's all up and running! 🥳</p>
+<p>After I'm sure I have that all ready to go, it's time to deploy. I used the <a href="https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#importing-a-git-repository-with-the-command-line">GitHub CLI to push the local folder</a> to a GitHub repo. From there, I followed the defaults in Netlify, and I did run into one hiccup: because I'm using [eleventy 3.0][11ty3], the default <code>eleventy</code> build command failed.</p>
+<p>I changed it to <code>npx @11ty/eleventy@canary</code>, which is the local build command,
+and now it's all up and running! 🥳</p>
+<p>[11ty3] :</p>
 </main>
 
   </body>

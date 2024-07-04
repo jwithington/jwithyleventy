@@ -36,7 +36,10 @@ A non-zero amount of what's in that file represents things I haven't built yet, 
 
 ## Time to deploy
 
-After I'm sure I have that all ready to go, it's time to deploy. I used the [GitHub CLI to push the local folder][gh-cli] to a GitHub repo. From there, Netlify + GitHub is well-trodden, so I just followed their [Deploy to Git][deploy] docs, and it's all up and running! 🥳
+After I'm sure I have that all ready to go, it's time to deploy. I used the [GitHub CLI to push the local folder][gh-cli] to a GitHub repo. From there, I followed the defaults in Netlify, and I did run into one hiccup: because I'm using [eleventy 3.0][11ty3], the default `eleventy` build command failed.
+
+I changed it to `npx @11ty/eleventy@canary`, which is the local build command,
+and now it's all up and running! 🥳
 
 [netlify]: https://www.netlify.com/
 [eleventy]: https://www.11ty.dev/
@@ -47,3 +50,5 @@ After I'm sure I have that all ready to go, it's time to deploy. I used the [Git
 [gh repo]: https://github.com/jwithington/jwithyleventy/blob/main/.gitignore
 [deploy]: https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git
 [gh-cli]: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#importing-a-git-repository-with-the-command-line
+
+[11ty3] :
