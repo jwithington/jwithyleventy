@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/bundle.css" />
+    <meta charset="UTF-8" />
+    <meta name="author" content="name" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="description here" />
+    <meta name="keywords" content="keywords,here" />
+    <title>Accessibility Notes</title>
+  </head>
+  <header><h1>Jim Withington's Blog</h1></header>
+  <body>
+    
+<h2>Accessibility Notes</h2>
+<main id="main-content"><p>One thing that I believe in strongly: accessibility needs to be part of any project from the start, not just afterwards.</p>
+<p>Today I ran some <a href="https://www.deque.com/axe/devtools/">Deque axe tests</a> on the <a href="https://peppy-kashata-a62c96.netlify.app/">day one stuff</a> I posted the other day, and it turns out I already caught some issues:</p>
+<ul>
+<li>I made the <code>&lt;h1&gt;</code> content for the site &quot;Jim Withington,&quot; but that header actually doesn't describe what follows. This site will eventually be my portfolio/blog site, so even &quot;Jim Withington's Site&quot; would be more appropriate.</li>
+<li>I didn't have a language attribute in the main html tag.</li>
+<li>My links are marked as <code>&lt;h2&gt;</code>'s. I know better than that. A huuuge rule of accessibility: elements should not be used for presentation. To be honest, I think this resulted from me using a tutorial, and I also don't think of this &quot;design&quot; as something I'm going to keep 😂 However, again, <a href="https://www.a11yproject.com/about/#what-does-the-term-a11y-mean">a11y</a> from the start!</li>
+<li>I never checked the color contrast the other day...and, obviously, even though I used placeholder colors, the grey and pink are not contrasting enough.(see below) So I'll probably go back to using my fave <code>deeppink</code> until further notice as the background color. 😂</li>
+</ul>
+<p><img src="/img/contrast-example.png" alt="screenshot showing grey on pink that had the wrong contrast"></p>
+<p>So today, those issues were the first things I'm working on! Anything else could wait.</p>
+<hr>
+<p>That said, once I did all that, I decided I wanted to quit having the full content of each post show up on the homepage. Even this early in the game, that bugged me. I'm working on adding a new variable called &quot;teaser&quot; where I can pull out a single line, add it to the front matter, and use that to represent the post. But it's getting late and I have other stuff I want to do, so...tomorrow!</p>
+<p>progress pic for today:</p>
+<p><img src="/img/070124-website.png" alt="screenshot of my linked website from 07/01/24"></p>
+<p>And hey <a href="https://66835c8f4a58e0dc24e792cd--earnest-cactus-e2ee4c.netlify.app/">the new deploy!</a></p>
+</main>
+
+  </body>
+</html>
