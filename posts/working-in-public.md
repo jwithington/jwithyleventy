@@ -1,5 +1,6 @@
 ---
 title: Working in Public
+teaser: Working on things in public is a great idea
 ---
 
 I'm currently unemployed, and one thing that that means is **time**. I've got a lot of it.
