@@ -4,7 +4,7 @@ teaser: Building a gitignore file to prep for continuous deployment
 tags: git, coding, continuous deployment
 ---
 
-# Ignore It
+# Ignore It, then Deploy It
 
 Today I realized I wanted to set this thing up for real continous deployment -- I no longer wanted to have to drag and drop to deploy the thing. I like using git even for personal projects, so it's a no-brainer to make it so that pushing to remote causes a deploy.
 
