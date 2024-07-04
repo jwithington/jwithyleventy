@@ -8,7 +8,7 @@ tags: git, coding, continuous deployment
 
 Today I realized I wanted to set this thing up for real continous deployment -- I no longer wanted to have to drag and drop to deploy the thing. I like using git even for personal projects, so it's a no-brainer to make it so that pushing to remote causes a deploy.
 
-I set it up on [Netlify][netlify] kinda by accident, simply because it was in the [eleventy tutorial][eleventy-tut], and I gotta say: it's nice to be back! I used to play around with Netlify a lot in the past, but haven't had a need to for a long time (as I was using [surge.sh](https://surge.sh/), [Github Pages][pages], or [Blot][blot], depending on what I was working on).
+I set it up on [Netlify][netlify] kinda by default, simply because it was in the [eleventy tutorial's deployment section][eleventy-tut], and I gotta say: it's nice to be back! I used to play around with Netlify a lot in the past, but haven't had a need to for a long time (as I was using [surge.sh](https://surge.sh/), [Github Pages][pages], or [Blot][blot], depending on what I was working on).
 
 And those are all good tools for what they are! But with [Eleventy][eleventy], I'm trying to do it The Eleventy Way™️, and so using the first thing they mentioned in the tutorial felt right. 😀
 
@@ -30,19 +30,20 @@ So this time, it 's my turn!
 
 The Eleventy docs weren't super helpful, and neither was the actual Eleventy `.gitignore` file, since it...had a lot of stuff that felt very specific to the project, not to what a user like me would need.
 
-After some Googling, I ended up finding a couple of sources for my main tools: VS Code, on a Mac. I also found someone's basic boilerplate version and deleted ths stuff I figured I wouldn't use. I kept the sources in the file, both for me, and so I can credit them. You can see the file in the [now-published GitHub repo][gh repo]. Hooray for tools built by folks!
+After some Googling, I ended up finding a couple of sources for my main tools: VS Code, on a Mac. I also found someone's basic boilerplate version and deleted ths stuff I figured I wouldn't use. I kept the sources in the file, both for me, and so I can credit them. You can see [the file in the now-published GitHub repo][gh repo]. Hooray for tools built by folks!
 
 A non-zero amount of what's in that file represents things I haven't built yet, like environmental variables and such. To me, that makes it a good safeguard -- it's already there when I do need it, and it prevents my "go go go" hyperfocus brain from missing the important stuff later.
 
 ## Time to deploy
 
-After I'm sure I have that all ready to go, it's time to deploy. Netlify + GitHub is well-trodden, so I just used their [Deploy to Git][deploy] docs, and it's all up and running! 🥳
+After I'm sure I have that all ready to go, it's time to deploy. I used the [GitHub CLI to push the local folder][gh-cli] to a GitHub repo. From there, Netlify + GitHub is well-trodden, so I just followed their [Deploy to Git][deploy] docs, and it's all up and running! 🥳
 
-[netlify]:
-[eleventy]:
-[eleventy-tut]:
+[netlify]: https://www.netlify.com/
+[eleventy]: https://www.11ty.dev/
+[eleventy-tut]: https://www.11ty.dev/docs/deployment/
 [pages]: https://pages.github.com/
 [blot]: https://blot.im/
 [backstage]: https://github.com/backstage/backstage
-[gh repo]:
+[gh repo]: https://github.com/jwithington/jwithyleventy/blob/main/.gitignore
 [deploy]: https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git
+[gh-cli]: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#importing-a-git-repository-with-the-command-line
