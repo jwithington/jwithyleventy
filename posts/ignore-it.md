@@ -50,5 +50,4 @@ and now it's all up and running! 🥳
 [gh repo]: https://github.com/jwithington/jwithyleventy/blob/main/.gitignore
 [deploy]: https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git
 [gh-cli]: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#importing-a-git-repository-with-the-command-line
-
-[11ty3] :
+[11ty3]: https://www.11ty.dev/blog/canary-eleventy-v3/
