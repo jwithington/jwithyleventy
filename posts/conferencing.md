@@ -4,8 +4,6 @@ teaser: Intuition is the best dev tool
 tags: intuition, conference-talks
 ---
 
-# Conferencing, Talking, Learning
-
 I just submitted a talk for [SquiggleConf](https://2024.squiggleconf.com/#call-for-speakers), a conference about web dev tooling. In a way that, to me, feels very _like_ me, it's not about electronic tools at all.
 
 I submitted a conference about intuition as your best tool.
