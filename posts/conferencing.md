@@ -1,6 +1,6 @@
 ---
-Date: 2024-07-11 00:57
-Title: Conferencing, Talking, Learning
+title: Conferencing, Talking, Learning
+teaser: Intuition is the best dev tool
 tags: intuition, conference-talks
 ---
 
