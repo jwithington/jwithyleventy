@@ -2,19 +2,23 @@
 layout: layout.html
 ---
 
-<div class="container">
-  <p>
-    This is my ongoing adventure with web development and re-making my blog,
-    using eleventy. It's a work in progress, until it isn't!
-  </p>
-  <img src="https://loremflickr.com/1280/720" />
-</div>
 <main id="homepage-main-content">
-  <h2>Posts</h2>
-  {% for post in collections.post %}
-  <div class="homepage-link">
-    <a href="{{ post.url }}">{{ post.data.title }}</a>
+  <div class="container">
+    <wa-card class="card-basic">
+      <p>
+        This is my ongoing adventure with web development and re-making my blog,
+        using eleventy. It's a work in progress, until it isn't!
+      </p>
+      <img src="https://loremflickr.com/1280/720" />
+    </wa-card>
+    <wa-card class="card-basic">
+      <h2>Posts</h2>
+      {% for post in collections.post %}
+      <div class="homepage-link">
+        <a href="{{ post.url }}">{{ post.data.title }}</a>
+      </div>
+      <p>{{ post.teaser}}</p>
+      {% endfor %} Some other content
+    </wa-card>
   </div>
-  <p>{{ post.teaser}}</p>
-  {% endfor %} Some other content
 </main>
