@@ -16,7 +16,7 @@ And I did that after battling COVID -- it didn't hit me all that hard, physicall
 
 ---
 
-I've also had some really exciting, promising interviews...and one pretty rough one. 😂 I've hit some lows a bit, again, but also bounced back. I've gotten **incredibly excited** about different web projects, [heard about][syntax] (and hell yeah-ed about)[new css][css] that's coming soon, and considered how to create my own [css crimes][crimes].
+I've also had some really exciting, promising interviews...and one pretty rough one. 😂 I've hit some lows a bit, again, but also bounced back. I've gotten **incredibly excited** about different web projects, [heard about][syntax] (and hell yeah-ed about) [new css][css] that's coming soon, and considered how to create my own [css crimes][crimes].
 And I've also looked around and gone, "wait, it's been almost two months since I was fired up and working on [my new site using eleventy][eleventy]?!?!?"
 
 <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGg5d3Fmd2M5M3FmN285YzdtYjk5dHVqZG44N3p2ZWhwNnNhZGxjbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26BRtI7Yk5PJWIfwA/giphy.gif">
@@ -34,7 +34,7 @@ It's a time of highs and lows, y'all. 🎢
 
 [open]: http://mikeeagle.net/
 [birdhouse]: https://www.youtube.com/watch?v=vn_or9gEB6g
-[never post]: https://www.neverpo.st/
+[never]: https://www.neverpo.st/
 [depths]: https://www.instagram.com/depthsofwikipedia
 [eleventy]: https://earnest-cactus-e2ee4c.netlify.app/
 [css]: https://nerdy.dev/text-box-ftw
