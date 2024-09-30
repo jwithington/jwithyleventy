@@ -2,6 +2,7 @@
 title: Conferencing, Talking, Learning
 teaser: Intuition is the best dev tool
 tags: intuition, conference-talks
+date: 2024-07-11
 ---
 
 I just submitted a talk for [SquiggleConf](https://2024.squiggleconf.com/#call-for-speakers), a conference about web dev tooling. In a way that, to me, feels very _like_ me, it's not about electronic tools at all.

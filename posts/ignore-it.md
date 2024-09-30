@@ -2,6 +2,7 @@
 title: Ignore It, then Deploy It
 teaser: Building a gitignore file to prep for continuous deployment
 tags: git, coding, continuous deployment
+date: 2024-07-04
 ---
 
 # Ignore It, then Deploy It

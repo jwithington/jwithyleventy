@@ -2,6 +2,7 @@
 title: Accessibility Notes
 teaser: Accessibility needs to be part of any project from the start, not just afterwards.
 tags: learning, coding, accessibility, a11y
+date: 2024-07-02
 ---
 
 One thing that I believe in strongly: accessibility needs to be part of any project from the start, not just afterwards.

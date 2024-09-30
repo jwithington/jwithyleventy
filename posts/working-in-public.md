@@ -1,6 +1,7 @@
 ---
 title: Working in Public
 teaser: Working on things in public is a great idea
+date: 2024-06-30
 ---
 
 ---

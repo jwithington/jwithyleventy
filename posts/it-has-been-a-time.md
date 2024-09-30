@@ -2,6 +2,7 @@
 title: It Has Been a Time
 teaser: a rollercoaster baby baby
 tags: css, xoxo, jobs
+date: 2024-09-04
 ---
 
 Dear Readers,
