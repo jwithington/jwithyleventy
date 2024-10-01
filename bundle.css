@@ -18,37 +18,37 @@ html {
     sans-serif;
 }
 
-@layer base {
-  h1 {
-    background-color: deeppink;
+/* @layer base {
+  p {
+    background-color: rgb(30, 108, 115);
   }
-}
-img,
+} */
+/* img,
 p {
   padding: 0.5rem;
-}
+} */
 
 /* someday! https://caniuse.com/css-text-box-trim */
 /* h1, p, button {
   text-box: trim-both cap alphabetic;
 } */
 
-.container {
+/* .container {
   display: flex;
-}
+} */
 
-img {
+/* img {
   max-width: 50%;
-}
+} */
 
-.homepage-link {
+/* .homepage-link {
   font-size: 1rem;
-}
+} */
 
 /* Web Awesome Components */
 
-.card-basic {
+/* .card-basic {
   background-color: deeppink;
   max-width: 60%;
   padding: 2rem;
-}
+} */

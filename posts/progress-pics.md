@@ -1,6 +1,7 @@
 ---
 title: Progress Pics
 teaser: I take a screenshot of the blog when I'm done for the day, and then I post it here.
+date: 2024-06-29
 ---
 
 I take a screenshot of the blog when I'm done for the day, and then I post it here.

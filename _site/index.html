@@ -1,72 +1,80 @@
 <!doctype html>
-<html lang="en" class="wa-theme">
+<html lang="en" class="bg-slate-300">
   <head>
-    <link rel="stylesheet" href="/output.css" />
     <meta charset="UTF-8" />
     <meta name="author" content="name" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="description here" />
     <meta name="keywords" content="keywords,here" />
     <!-- tailwind -->
-    <link href="../output.css" rel="stylesheet" />
     <!-- web awesome free alpha -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://early.webawesome.com/webawesome@3.0.0-alpha.2/dist/themes/default.css"
     />
     <script
       type="module"
       src="https://early.webawesome.com/webawesome@3.0.0-alpha.2/dist/webawesome.loader.js"
-    ></script>
+    ></script> -->
 
     <title>Jim Withington's Personal Site</title>
+    <link rel="stylesheet" href="/output.css" />
   </head>
-  <header><h1 class="bg-teal-500">Jim Withington's Blog</h1></header>
-  <body>
+  <header>
+    <h1
+      class="prose prose-2xl shadow-lg rounded p-4 m-2 bg-pink-500 text-white"
+    >
+      Jim Withington's Blog
+    </h1>
+  </header>
+  <body class="prose p-4 m-2">
     
-<main id="homepage-main-content">
+<main id="homepage-main-content" class="p-2">
   <div class="container">
-    <wa-card class="card-basic">
-      <p>
-        This is my ongoing adventure with web development and re-making my blog,
-        using eleventy. It's a work in progress, until it isn't!
-      </p>
-      <img alt="" src="https://loremflickr.com/1280/720" />
-    </wa-card>
-    <wa-card class="card-basic">
-      <h2>Posts</h2>
-      
-      <div class="homepage-link">
-        <a href="/posts/progress-pics/">Progress Pics</a>
-      </div>
-      <p></p>
-      
-      <div class="homepage-link">
-        <a href="/posts/it-has-been-a-time/">It Has Been a Time</a>
-      </div>
-      <p></p>
-      
-      <div class="homepage-link">
-        <a href="/posts/conferencing/">Conferencing, Talking, Learning</a>
-      </div>
-      <p></p>
-      
-      <div class="homepage-link">
-        <a href="/posts/ignore-it/">Ignore It, then Deploy It</a>
-      </div>
-      <p></p>
-      
-      <div class="homepage-link">
-        <a href="/posts/accessibility-notes/">Accessibility Notes</a>
-      </div>
-      <p></p>
-      
-      <div class="homepage-link">
-        <a href="/posts/working-in-public/">Working in Public</a>
-      </div>
-      <p></p>
-       Some other content
-    </wa-card>
+    <p class="prose bg-teal-200 shadow-lg rounded p-4 font-normal">
+      This is my ongoing adventure with web development and re-making my blog,
+      using eleventy. It's a work in progress, until it isn't!
+    </p>
+    <img
+      class="w-screen shadow-lg rounded object-cover"
+      alt=""
+      src="https://loremflickr.com/1280/720"
+    />
+
+    <h2 class="prose prose-xl bg-purple-400 rounded p-2 shadow-lg text-white">
+      Posts
+    </h2>
+    
+    <div class="p-2 bg-green-200 rounded shadow-lg my-3">
+      <a class="text-gray-900" href="/posts/it-has-been-a-time/">It Has Been a Time</a>
+      <p>🎢 a rollercoaster baby baby 🎵</p>
+    </div>
+    
+    <div class="p-2 bg-green-200 rounded shadow-lg my-3">
+      <a class="text-gray-900" href="/posts/conferencing/">Conferencing, Talking, Learning</a>
+      <p>Intuition is the best dev tool</p>
+    </div>
+    
+    <div class="p-2 bg-green-200 rounded shadow-lg my-3">
+      <a class="text-gray-900" href="/posts/ignore-it/">Ignore It, then Deploy It</a>
+      <p>Building a gitignore file to prep for continuous deployment</p>
+    </div>
+    
+    <div class="p-2 bg-green-200 rounded shadow-lg my-3">
+      <a class="text-gray-900" href="/posts/accessibility-notes/">Accessibility Notes</a>
+      <p>Accessibility needs to be part of any project from the start, not just afterwards.</p>
+    </div>
+    
+    <div class="p-2 bg-green-200 rounded shadow-lg my-3">
+      <a class="text-gray-900" href="/posts/working-in-public/">Working in Public</a>
+      <p>Working on things in public is a great idea</p>
+    </div>
+    
+    <div class="p-2 bg-green-200 rounded shadow-lg my-3">
+      <a class="text-gray-900" href="/posts/progress-pics/">Progress Pics</a>
+      <p>I take a screenshot of the blog when I'm done for the day, and then I post it here.</p>
+    </div>
+    
   </div>
 </main>
 
