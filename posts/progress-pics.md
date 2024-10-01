@@ -6,7 +6,7 @@ date: 2024-06-29
 
 I take a screenshot of the blog when I'm done for the day, and then I post it here.
 
-I plan to add the new one at the tiop each time.
+I plan to add the new one at the top each time.
 
 I like to think of it as a personal timeline for what I'm up to!
 
