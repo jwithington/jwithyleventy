@@ -5,8 +5,6 @@ tags: git, coding, continuous deployment
 date: 2024-07-04
 ---
 
-# Ignore It, then Deploy It
-
 Today I realized I wanted to set this thing up for real continous deployment -- I no longer wanted to have to drag and drop to deploy the thing. I like using git even for personal projects, so it's a no-brainer to make it so that pushing to remote causes a deploy.
 
 I set it up on [Netlify][netlify] kinda by default, simply because it was in the [eleventy tutorial's deployment section][eleventy-tut], and I gotta say: it's nice to be back! I used to play around with Netlify a lot in the past, but haven't had a need to for a long time (as I was using [surge.sh](https://surge.sh/), [Github Pages][pages], or [Blot][blot], depending on what I was working on).
