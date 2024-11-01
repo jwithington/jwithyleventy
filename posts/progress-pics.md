@@ -10,6 +10,8 @@ I plan to add the new one at the top each time.
 
 I like to think of it as a personal timeline for what I'm up to!
 
+![a screenshot of this site from 10/31/24](/img/103124-tailwind-adjusting.jpeg)
+
 ![a screenshot of this site from 09/30/24](/img/093024-tailwind-time.png)
 
 ![a screenshot of this site from 07/01/24](/img/070124-website.png)
