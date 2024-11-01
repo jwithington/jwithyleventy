@@ -1591,6 +1591,11 @@ video {
   border-radius: 0.25rem;
 }
 
+.bg-azure-radiance-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(151 198 249 / var(--tw-bg-opacity));
+}
+
 .bg-gravel-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(118 117 130 / var(--tw-bg-opacity));
@@ -1619,21 +1624,6 @@ video {
 .bg-yellow-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 240 138 / var(--tw-bg-opacity));
-}
-
-.bg-azure-radiance-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(53 125 237 / var(--tw-bg-opacity));
-}
-
-.bg-azure-radiance-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(102 168 244 / var(--tw-bg-opacity));
-}
-
-.bg-azure-radiance-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(151 198 249 / var(--tw-bg-opacity));
 }
 
 .object-cover {

@@ -46,7 +46,11 @@
 <h2 class="text-2xl p-4 rounded shadow-lg bg-teal-200 prose">
   Ignore It, then Deploy It
 </h2>
-<main id="main-content" class="px-4 prose"><p>Today I realized I wanted to set this thing up for real continous deployment -- I no longer wanted to have to drag and drop to deploy the thing. I like using git even for personal projects, so it's a no-brainer to make it so that pushing to remote causes a deploy.</p>
+<main
+  id="main-content"
+  class="px-4 prose md:max-w-none bg-teal-200 shadow-lg rounded p-4 font-normal"
+>
+  <p>Today I realized I wanted to set this thing up for real continous deployment -- I no longer wanted to have to drag and drop to deploy the thing. I like using git even for personal projects, so it's a no-brainer to make it so that pushing to remote causes a deploy.</p>
 <p>I set it up on <a href="https://www.netlify.com/">Netlify</a> kinda by default, simply because it was in the <a href="https://www.11ty.dev/docs/deployment/">eleventy tutorial's deployment section</a>, and I gotta say: it's nice to be back! I used to play around with Netlify a lot in the past, but haven't had a need to for a long time (as I was using <a href="https://surge.sh/">surge.sh</a>, <a href="https://pages.github.com/">Github Pages</a>, or <a href="https://blot.im/">Blot</a>, depending on what I was working on).</p>
 <p>And those are all good tools for what they are! But with <a href="https://www.11ty.dev/">Eleventy</a>, I'm trying to do it The Eleventy Way™️, and so using the first thing they mentioned in the tutorial felt right. 😀</p>
 <h2>A tiny gitignore explainer</h2>
@@ -67,6 +71,7 @@
 <p>After I'm sure I have that all ready to go, it's time to deploy. I used the <a href="https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#importing-a-git-repository-with-the-command-line">GitHub CLI to push the local folder</a> to a GitHub repo. From there, I followed the defaults in Netlify, and I did run into one hiccup: because I'm using <a href="https://www.11ty.dev/blog/canary-eleventy-v3/">eleventy 3.0</a>, the default <code>eleventy</code> build command failed.</p>
 <p>I changed it to <code>npx @11ty/eleventy@canary</code>, which is the local build command,
 and now it's all up and running! 🥳</p>
+
 </main>
 
   </body>

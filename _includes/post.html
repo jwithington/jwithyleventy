@@ -5,4 +5,9 @@ layout: layout.html
 <h2 class="text-2xl p-4 rounded shadow-lg bg-teal-200 prose">
   {{ title | default: "New Blog Post" }}
 </h2>
-<main id="main-content" class="px-4 prose">{{ content }}</main>
+<main
+  id="main-content"
+  class="px-4 prose md:max-w-none bg-teal-200 shadow-lg rounded p-4 font-normal"
+>
+  {{ content }}
+</main>
