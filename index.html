@@ -2,40 +2,38 @@
 layout: layout.html
 ---
 
-<main id="homepage-main-content" class="p-2">
-  <div class="">
-    <div class="md:grid md:grid-cols-2 md:gap-4">
-      <p
-        class="prose max-h-40 md:max-w-none bg-azure-radiance-300 shadow-lg rounded p-4 font-normal"
-      >
-        This is my ongoing adventure with web development and re-making my blog,
-        using eleventy. It's a work in progress, until it isn't!
-      </p>
-      <p
-        class="prose max-h-40 md:max-w-none bg-teal-200 shadow-lg rounded p-4 font-normal"
-      >
-        This is my ongoing adventure with web development and re-making my blog,
-        using eleventy. It's a work in progress, until it isn't!
-      </p>
-      <!-- <img
+<main id="homepage-main-content" class="">
+  <div class="md:grid md:grid-cols-2 md:gap-4">
+    <p
+      class="prose max-h-40 md:max-w-none bg-azure-radiance-300 shadow-lg rounded p-4 font-normal"
+    >
+      This is my ongoing adventure with web development and re-making my blog,
+      using eleventy. It's a work in progress, until it isn't!
+    </p>
+    <p
+      class="prose max-h-40 md:max-w-none bg-teal-200 shadow-lg rounded p-4 font-normal"
+    >
+      This is my ongoing adventure with web development and re-making my blog,
+      using eleventy. It's a work in progress, until it isn't!
+    </p>
+    <!-- <img
         class="max-h-40 shadow-lg rounded object-cover md:max-w-screen-xlr"
         alt=""
         src="https://loremflickr.com/1280/720"
       /> -->
-    </div>
+  </div>
 
-    <h2
-      class="prose prose-xl md:max-w-none bg-purple-400 rounded p-2 shadow-lg text-white"
-    >
-      Posts
-    </h2>
-    <div class="grid md:grid-cols-2 md:gap-4">
-      {% for post in collections.post reversed %}
-      <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
-        <a class="text-gray-900" href="{{ post.url }}">{{ post.data.title }}</a>
-        <p>{{ post.data.teaser}}</p>
-      </div>
-      {% endfor %}
+  <h2
+    class="prose prose-xl md:max-w-none bg-purple-400 rounded p-2 shadow-lg text-white"
+  >
+    Posts
+  </h2>
+  <div class="grid md:grid-cols-2 md:gap-4">
+    {% for post in collections.post reversed %}
+    <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
+      <a class="text-gray-900" href="{{ post.url }}">{{ post.data.title }}</a>
+      <p>{{ post.data.teaser}}</p>
     </div>
+    {% endfor %}
   </div>
 </main>

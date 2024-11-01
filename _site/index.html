@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="bg-gravel-500 max-w-7xl h-auto w-auto">
+<html lang="en" class="bg-gravel-300 max-w-7xl h-auto w-auto">
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="name" />
@@ -26,14 +26,14 @@
     >
       Jim Withington, Web Developer
     </h1>
-    <nav class="md:max-w-none grid md:grid-flow-col gap-4">
+    <nav class="md:max-w-none grid md:grid-flow-col gap-4 m-0">
       <a href="/" class="shadow-lg rounded p-2 prose bg-yellow-200" ref="/"
         >Home</a
       >
-      <a href="/" class="shadow-lg rounded p-2 prose bg-yellow-200" ref="/"
+      <a href="/about" class="shadow-lg rounded p-2 prose bg-yellow-200" ref="/"
         >About</a
       >
-      <a href="/" class="shadow-lg rounded p-2 prose bg-yellow-200" ref="/"
+      <a href="/work" class="shadow-lg rounded p-2 prose bg-yellow-200" ref="/"
         >Work</a
       >
       <a href="/" class="shadow-lg rounded p-2 prose bg-yellow-200" ref="/"
@@ -43,66 +43,64 @@
   </header>
   <body class="prose md:max-w-none p-4 mx-2">
     
-<main id="homepage-main-content" class="p-2">
-  <div class="">
-    <div class="md:grid md:grid-cols-2 md:gap-4">
-      <p
-        class="prose max-h-40 md:max-w-none bg-azure-radiance-300 shadow-lg rounded p-4 font-normal"
-      >
-        This is my ongoing adventure with web development and re-making my blog,
-        using eleventy. It's a work in progress, until it isn't!
-      </p>
-      <p
-        class="prose max-h-40 md:max-w-none bg-teal-200 shadow-lg rounded p-4 font-normal"
-      >
-        This is my ongoing adventure with web development and re-making my blog,
-        using eleventy. It's a work in progress, until it isn't!
-      </p>
-      <!-- <img
+<main id="homepage-main-content" class="">
+  <div class="md:grid md:grid-cols-2 md:gap-4">
+    <p
+      class="prose max-h-40 md:max-w-none bg-azure-radiance-300 shadow-lg rounded p-4 font-normal"
+    >
+      This is my ongoing adventure with web development and re-making my blog,
+      using eleventy. It's a work in progress, until it isn't!
+    </p>
+    <p
+      class="prose max-h-40 md:max-w-none bg-teal-200 shadow-lg rounded p-4 font-normal"
+    >
+      This is my ongoing adventure with web development and re-making my blog,
+      using eleventy. It's a work in progress, until it isn't!
+    </p>
+    <!-- <img
         class="max-h-40 shadow-lg rounded object-cover md:max-w-screen-xlr"
         alt=""
         src="https://loremflickr.com/1280/720"
       /> -->
-    </div>
+  </div>
 
-    <h2
-      class="prose prose-xl md:max-w-none bg-purple-400 rounded p-2 shadow-lg text-white"
-    >
-      Posts
-    </h2>
-    <div class="grid md:grid-cols-2 md:gap-4">
-      
-      <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
-        <a class="text-gray-900" href="/posts/it-has-been-a-time/">It Has Been a Time</a>
-        <p>🎢 a rollercoaster baby baby 🎵</p>
-      </div>
-      
-      <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
-        <a class="text-gray-900" href="/posts/conferencing/">Conferencing, Talking, Learning</a>
-        <p>Intuition is the best dev tool</p>
-      </div>
-      
-      <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
-        <a class="text-gray-900" href="/posts/ignore-it/">Ignore It, then Deploy It</a>
-        <p>Building a gitignore file to prep for continuous deployment</p>
-      </div>
-      
-      <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
-        <a class="text-gray-900" href="/posts/accessibility-notes/">Accessibility Notes</a>
-        <p>Accessibility needs to be part of any project from the start, not just afterwards.</p>
-      </div>
-      
-      <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
-        <a class="text-gray-900" href="/posts/working-in-public/">Working in Public</a>
-        <p>Working on things in public is a great idea</p>
-      </div>
-      
-      <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
-        <a class="text-gray-900" href="/posts/progress-pics/">Progress Pics</a>
-        <p>I take a screenshot of the blog when I'm done for the day, and then I post it here.</p>
-      </div>
-      
+  <h2
+    class="prose prose-xl md:max-w-none bg-purple-400 rounded p-2 shadow-lg text-white"
+  >
+    Posts
+  </h2>
+  <div class="grid md:grid-cols-2 md:gap-4">
+    
+    <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
+      <a class="text-gray-900" href="/posts/it-has-been-a-time/">It Has Been a Time</a>
+      <p>🎢 a rollercoaster baby baby 🎵</p>
     </div>
+    
+    <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
+      <a class="text-gray-900" href="/posts/conferencing/">Conferencing, Talking, Learning</a>
+      <p>Intuition is the best dev tool</p>
+    </div>
+    
+    <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
+      <a class="text-gray-900" href="/posts/ignore-it/">Ignore It, then Deploy It</a>
+      <p>Building a gitignore file to prep for continuous deployment</p>
+    </div>
+    
+    <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
+      <a class="text-gray-900" href="/posts/accessibility-notes/">Accessibility Notes</a>
+      <p>Accessibility needs to be part of any project from the start, not just afterwards.</p>
+    </div>
+    
+    <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
+      <a class="text-gray-900" href="/posts/working-in-public/">Working in Public</a>
+      <p>Working on things in public is a great idea</p>
+    </div>
+    
+    <div class="p-2 bg-summer-green-100 rounded shadow-lg my-2 md:my-0">
+      <a class="text-gray-900" href="/posts/progress-pics/">Progress Pics</a>
+      <p>I take a screenshot of the blog when I'm done for the day, and then I post it here.</p>
+    </div>
+    
   </div>
 </main>
 

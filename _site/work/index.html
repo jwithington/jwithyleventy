@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en" class="bg-gravel-300 max-w-7xl h-auto w-auto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="name" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="description here" />
+    <meta name="keywords" content="keywords,here" />
+    <!-- tailwind -->
+    <!-- web awesome free alpha -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://early.webawesome.com/webawesome@3.0.0-alpha.2/dist/themes/default.css"
+    />
+    <script
+      type="module"
+      src="https://early.webawesome.com/webawesome@3.0.0-alpha.2/dist/webawesome.loader.js"
+    ></script> -->
+
+    <title>Work Samples</title>
+    <link rel="stylesheet" href="/output.css" />
+  </head>
+  <header>
+    <h1
+      class="prose prose-2xl md:max-w-none shadow-lg rounded p-4 my-2 bg-wild-strawberry-400 text-white"
+    >
+      Jim Withington, Web Developer
+    </h1>
+    <nav class="md:max-w-none grid md:grid-flow-col gap-4 m-0">
+      <a href="/" class="shadow-lg rounded p-2 prose bg-yellow-200" ref="/"
+        >Home</a
+      >
+      <a href="/about" class="shadow-lg rounded p-2 prose bg-yellow-200" ref="/"
+        >About</a
+      >
+      <a href="/work" class="shadow-lg rounded p-2 prose bg-yellow-200" ref="/"
+        >Work</a
+      >
+      <a href="/" class="shadow-lg rounded p-2 prose bg-yellow-200" ref="/"
+        >Blog</a
+      >
+    </nav>
+  </header>
+  <body class="prose md:max-w-none p-4 mx-2">
+    
+<h2
+  class="text-2xl p-4 rounded shadow-lg bg-purple-400 text-white prose md:max-w-none"
+>
+  Work Samples
+</h2>
+<main
+  id="main-content"
+  class="px-4 prose md:max-w-none bg-teal-200 shadow-lg rounded p-4 font-normal"
+>
+  <p>Here are some samples of my previous work, as well as a bit from the personal site redesign I'm working on.</p>
+<p>Unfortunately, not all of my work can be shared -- either because I don't have access to the code, or because the sites are no longer available.</p>
+<p>Still, I think this can give some idea of what I did in my previous roles!</p>
+<h2>ConnectiveDX Front End Work</h2>
+<p>At Connective DX, I worked on the front end team that did a complete site redesign for NW Natural, a Portland area utility company.</p>
+<p><a href="https://www.nwnatural.com/">Northwest Natural</a></p>
+<p>In that position, we worked using BEM and atomic design to build components in a React-based design system app, and then handed those components over to the backend team for them to build the site.</p>
+<p>One example: I worked on the responsive cards on the <a href="https://www.nwnatural.com/account/pay-my-bill">Pay My Bill</a> page, shown below.</p>
+<p><img src="/img/_pay-bill.png" alt="three cards with information about bill pay"></p>
+<p>Here they are in action; I also helped with the little arrow animation at the end:</p>
+<p><img src="/img/_nwn.gif" alt="a gif illustrating the responsiveness of card components"></p>
+<p>Most importantly, I came in when the site was in progress, and identified some accessibility issues (in particular, the colors needed to be adjusted, and they had some keyboard navigation issues). I helped them work through those, and that set me up to always help with accessibility on every team I've joined ever since!</p>
+<h2>OpenContext Front End and Documentation Work</h2>
+<p>In my most recent position at OpenContext, I served as the first employee an only front end developer.</p>
+<p>We built on top of the [Backstage opensource project][], and my work revolved around adding new front end features and, especially, changing the look and feel of the app to feel more like ours and less like a Backstage reskin.</p>
+<p>Here are a just few things I worked on!</p>
+<p>The image below shows a bit of work I did on the main page's table. I helped product decide which information was most important to show first, and I also wanted to do that without a ton of horizontal scrolling. At some point we had to find a happy medium, and once we implemented MUI components for this table, we were able to get a good balance!</p>
+<p><img src="/img/_catalog-1.png" alt="catalog table showing rows and columns of example data"></p>
+<p>The next two images show an in progress team page we were working on, and how it was looking in both a regular view, and in widescreen.</p>
+<p><img src="/img/_component-first-2.png" alt="example component view for team page">
+<img src="/img/_component-first.png" alt="example widescreen component view for team page"></p>
+<p>Since the entire team was remote, we often worked hard to be sure we documented what we were working on and progress we made. Sometimes we used these sorts of annotated screenshots as visual aids. This kind of thing can show how I work with a remote team. Here are two of my annotated shots -- the first of shows an audit of issues I found, and the other is a progress update.</p>
+<p><img src="/img/_annotation-1.png" alt="example of audit as an annotated screenshot">
+<img src="/img/_annotation-2.png" alt="example of in progress comments as an annotated screenshot"></p>
+<p>In addition, I edited / revamped a ton of our documentation. Here's one example page that I did (hosted on my own site, so it looks a bit different than it did in production):</p>
+<p><a href="https://www.jwithy.com/how-to-navigate-the-application">How to Navigate the Application</a></p>
+<h2>New Personal Site</h2>
+<p>I'm also currently revamping my personal site, using a combination of techniques I already had and things I'd hoped to learn! Eventually, this will replace what is currently at https://www.jimwithington.com/. The new things include:</p>
+<ul>
+<li>Tailwind CSS</li>
+<li>Building it in Eleventy</li>
+<li>Using different template languages like nunjucks, and</li>
+<li>Fully hosting it the Eleventy way on Netlify (a service I love but haven't used too much yet)</li>
+</ul>
+<p>Some of my ongoing progress pics are here, on the staging site for the new design:</p>
+<p><a href="https://earnest-cactus-e2ee4c.netlify.app/posts/progress-pics/">Progress pics</a></p>
+<p>Here are two blog posts related to the updates:</p>
+<p><a href="https://www.jwithy.com/accessibility-notes">Accessibility Notes</a><br>
+<a href="https://www.jwithy.com/ignore-it">Ignore it, then Deploy It</a></p>
+<p>And here's the related GitHub repo:</p>
+<p><a href="https://github.com/jwithington/jwithyleventy">Eleventy Site Github Repo</a></p>
+<h2>Evergreen State College Front End and Content Work</h2>
+<p>I also worked as half of the two-person web team at <a href="https://evergreen.edu">the Evergreen State College</a> from 2020-2022. In that role, I helped finish the ongoing redesign and Drupal upgrade they were working on, while also training new site editors and doing a lot of the college's COVID response (both pages and copy writing).</p>
+<p>Unfortunately, that site has had another overhaul since I left. However, here are a couple of links I was able to grab from the Internet Archive that show some of the redesign I worked on:</p>
+<p>https://web.archive.org/web/20210226221133/https://evergreen.edu/covid19/covid-19-information</p>
+<p>https://web.archive.org/web/20220227233146/https://www.evergreen.edu/covid19</p>
+
+</main>
+
+  </body>
+</html>
