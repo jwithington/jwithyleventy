@@ -1,7 +1,9 @@
+---
 date: 2025-02-10
 title: My head's on fire and high esteem
 tags: moving, portland, friends, growth
 teaser: I'm moving back to Portland in less than a week.
+---
 
 # My head's on fire and high esteem
 
