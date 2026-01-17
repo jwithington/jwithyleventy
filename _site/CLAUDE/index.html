@@ -1,0 +1,41 @@
+<h1>CLAUDE.md</h1>
+<p>This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.</p>
+<h2>Project Overview</h2>
+<p>Personal portfolio and blog site for jimwithington.com, built with Eleventy (11ty) static site generator and Tailwind CSS.</p>
+<h2>Commands</h2>
+<ul>
+<li><code>npm run dev</code> - Run development server (Eleventy + Tailwind watcher in parallel)</li>
+<li><code>npm start</code> - Run Eleventy serve mode only</li>
+<li><code>npm run start-tailwind</code> - Run Tailwind CSS watcher only</li>
+</ul>
+<p>Output is generated to <code>_site/</code> directory.</p>
+<h2>Architecture</h2>
+<h3>Templates (Nunjucks)</h3>
+<ul>
+<li><code>_includes/layout.html</code> - Base layout wrapper used by all pages</li>
+<li><code>_includes/post.html</code> - Layout for blog posts (extends layout.html)</li>
+</ul>
+<h3>Content</h3>
+<ul>
+<li><code>posts/</code> - Blog posts as Markdown files; <code>posts.json</code> auto-applies post.html layout and &quot;post&quot; tag to all files in this directory</li>
+<li>Root-level <code>.md</code> and <code>.html</code> files are standalone pages (index.html, about.md, work.md)</li>
+</ul>
+<h3>Styling</h3>
+<ul>
+<li><code>bundle.css</code> - Tailwind input file</li>
+<li><code>output.css</code> - Compiled Tailwind output (generated, committed)</li>
+<li>Custom color palettes defined in tailwind.config.js: <code>wild-strawberry</code>, <code>gravel</code>, <code>summer-green</code>, <code>azure-radiance</code></li>
+<li>Uses @tailwindcss/typography plugin for prose styling</li>
+</ul>
+<h3>Static Assets</h3>
+<ul>
+<li><code>img/</code> - Images, passed through to _site via eleventy.config.cjs</li>
+</ul>
+<h2>Collections</h2>
+<p>Posts are collected via the &quot;post&quot; tag (set in posts.json) and displayed on the homepage using <code>collections.post</code>.</p>
+<h2>Configuration Files</h2>
+<ul>
+<li><code>eleventy.config.cjs</code> - Eleventy config (CommonJS format)</li>
+<li><code>tailwind.config.js</code> - Tailwind config with custom colors</li>
+<li><code>.eleventyignore</code> - Excludes README.md and _drafts/ from build</li>
+</ul>
